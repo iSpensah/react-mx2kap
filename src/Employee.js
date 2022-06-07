@@ -7,10 +7,10 @@ class Employee extends React.Component {
     this.state = {
       employees: [
         { EmployeeId: 123, EmpName: 'Swati', Empcity: 'Sanjuan' },
-        { EmployeeId: 123, EmpName: 'Swati', Empcity: 'Miami' },
-        { EmployeeId: 123, EmpName: 'Swati', Empcity: 'Phoenix' },
-        { EmployeeId: 123, EmpName: 'Swati', Empcity: 'N-York' },
-        { EmployeeId: 123, EmpName: 'Swati', Empcity: 'Newsburgh' },
+        { EmployeeId: 124, EmpName: 'Mahesh', Empcity: 'Miami' },
+        { EmployeeId: 125, EmpName: 'Renejay', Empcity: 'Phoenix' },
+        { EmployeeId: 126, EmpName: 'Joems', Empcity: 'N-York' },
+        { EmployeeId: 127, EmpName: 'Justin', Empcity: 'Newsburgh' },
       ],
     };
   }
