@@ -7,7 +7,7 @@ export default function Counter() {
     <div>
       <p> This is the Counter </p>
       <p>{counter}</p>
-      <button onClick={() => setCounter(counter + 2)}>Increase Counter </button>
+      <button onClick={() => setCounter(counter + 2)}>Increase Counter </button>   /*using lambda expression */  anonymous method
       <button onClick={() => setCounter(counter - 2)}>Decrease Counter </button>
     </div>
   );
