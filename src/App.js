@@ -9,10 +9,13 @@ import Count from './Count';
 import Random from './Random';
 import Google from './Google';
 
-export default function App() {
+export default function App(props) {
   return (
     <div>
-      <h1>Hello StackBlitz!</h1>
+      <h1>
+        Hello {props.name}
+        {props.lastname} StackBlitz!
+      </h1>
       <p>Start editing to see some magic happen :)</p>
 
       <Counter />
@@ -25,6 +28,6 @@ export default function App() {
       <Random />
       <Update />
       <Google />
-    </div> 
+    </div>
   );
 }
