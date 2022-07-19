@@ -20,6 +20,7 @@ class Employee extends React.Component {
         <tr>
           <th>EmployeeId</th>
           <th>EmpName</th>
+          <th>EmpCIty</th>
         </tr>
         <tbody>
           {this.state.employees.map((e) => (
