@@ -3,7 +3,7 @@ import './style.css';
 import Counter from './Counter';
 import Employee from './Employee';
 import Update from './Update';
-
+import Food from './Food';
 export default function App() {
   return (
     <div>
@@ -12,6 +12,7 @@ export default function App() {
 
       <Counter />
       <Employee />
+      <Food />
       <Update />
     </div>
   );

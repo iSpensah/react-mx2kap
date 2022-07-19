@@ -14,7 +14,7 @@ class Food extends React.Component {
     };
   }
 
-  reder() {
+  render() {
     return (
       <table border="1">
         <tr>
