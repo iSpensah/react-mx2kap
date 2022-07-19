@@ -7,6 +7,7 @@ import Food from './Food';
 import App4 from './App4';
 import Count from './Count';
 import Random from './Random';
+import Google from './Google';
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
       <p>Click for a random Number</p>
       <Random />
       <Update />
-    </div>
+      <Google />
+    </div> 
   );
 }

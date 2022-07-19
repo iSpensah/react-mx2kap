@@ -5,11 +5,9 @@ function CountApp() {
   return (
     <div>
             <h3>You clicked {count} times</h3>
-            
       <button onClick={() => setCount(count + 1)}>
                 Click here to increment count       
       </button>
-          
     </div>
   );
 }
