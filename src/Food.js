@@ -11,7 +11,7 @@ class Food extends React.Component {
         { FoodId: 125, FoodName: 'Apple', FoodClass: 'Fruits' },
         { FoodId: 126, FoodName: 'CauliFlower', FoodClass: 'Vegetable' },
         { FoodId: 127, FoodName: 'Cabbage', FoodClass: 'Vegetable' },
-      ],
+      ]
     };
   }
   render() {
