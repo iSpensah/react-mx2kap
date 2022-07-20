@@ -8,6 +8,8 @@ import App4 from './App4';
 import Count from './Count';
 import Random from './Random';
 import Google from './Google';
+import Pizza from './Pizza';
+import Greet from './Greet';
 
 export default function App(props) {
   return (
@@ -28,6 +30,8 @@ export default function App(props) {
       <Random />
       <Update />
       <Google />
+      <Pizza />
+      <Greet name="spencer" dept="IT" children = "hi" />
     </div>
   );
 }
