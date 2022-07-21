@@ -1,6 +1,6 @@
 //import './person.css';     //THIS IS THE WAY of adding css to your component
 import React, { Component } from 'react';
-
+import Button from './Button';
 class Pizza extends React.Component {
   constructor() {
     super();
@@ -27,6 +27,8 @@ class Pizza extends React.Component {
     return (
       <div>
         <p> Pizza number of slices is {this.state.slices}</p>
+        <Button action={this.eatSlice} label="Eat a slice" />
+      <Button action={this.buySlice} label="Buy a slice" />
       </div>
     );
   }
