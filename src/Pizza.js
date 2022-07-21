@@ -1,4 +1,4 @@
-import './person.css'; //THIS IS THE WAY of adding css to your component
+//import './person.css'; //THIS IS THE WAY of adding css to your component
 import React, { Component } from 'react';
 import Button from './Button';
 class Pizza extends React.Component {
