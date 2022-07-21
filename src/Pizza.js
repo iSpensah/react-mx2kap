@@ -8,6 +8,7 @@ class Pizza extends React.Component {
     this.state;
     this.eatSlice = this.eatSlice.bind(this);
     this.buySlice = this.buySlice.bind(this);
+    this.changeState = this.changeState.bind(this);
   }
 
   buySlice() {
@@ -36,7 +37,10 @@ class Pizza extends React.Component {
           {this.state.Food} number of slices is {this.state.slices}
         </p>
         <Button action={this.buySlice} label="Buy a slice" />
-        <Button onchange={() => this.state.changeState} />
+        <Button
+          onchange={() => this.state.changeState}
+          label="Change The Food"
+        />
       </div>
     );
   }
