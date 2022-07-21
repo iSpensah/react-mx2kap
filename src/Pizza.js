@@ -26,9 +26,9 @@ class Pizza extends React.Component {
   render() {
     return (
       <div>
-        <p> Pizza number of slices is {this.state.slices}</p>
         <Button action={this.eatSlice} label="Eat a slice" />
-      <Button action={this.buySlice} label="Buy a slice" />
+        <p> Pizza number of slices is {this.state.slices}</p>
+        <Button action={this.buySlice} label="Buy a slice" />
       </div>
     );
   }
