@@ -38,7 +38,7 @@ class Pizza extends React.Component {
         </p>
         <Button action={this.buySlice} label="Buy a slice" />
         <Button
-          onchange={() => this.state.changeState}
+          onClick={() => this.state.changeState}
           label="Change The Food"
         />
       </div>
