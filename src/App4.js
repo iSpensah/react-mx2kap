@@ -4,10 +4,9 @@ function App4() {
   const [name, setName] = useState('');
   return (
     <div>
-            
+         
       <form>
-                <label>Name</label>
-                
+                <label>Name</label> 
         <input
           type="text"
           value={name}
